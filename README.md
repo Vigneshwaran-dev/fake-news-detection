@@ -47,6 +47,7 @@ Example folder structure:
 ```bash
 git clone https://github.com/Vigneshwaran-dev/fake-news-detection.git
 cd fake-news-detection
+```
 
 ### 2. Create & Activate Virtual Environment (optional)
 
@@ -54,16 +55,19 @@ cd fake-news-detection
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # macOS/Linux
+```
 
 ### 3. Install Required Packages
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run the Flask App
 
 ```bash
 python app.py
+```
 
 Then open your browser and visit:
 ➡http://127.0.0.1:5000/
