@@ -33,10 +33,10 @@ The model is a fine-tuned version of DistilBERT, trained for binary classificati
 You can download the model files [https://drive.google.com/drive/folders/11MDpegtV7oesQkdk6EyJq7vLeffSRYyN?usp=drive_link](#) and place them inside a folder named `/model/` in the root directory.
 
 Example folder structure:
-/model/
-├── config.json
-├── pytorch_model.bin
-├── tokenizer_config.json
+/model/  
+├── config.json  
+├── pytorch_model.bin  
+├── tokenizer_config.json  
 └── vocab.txt
 
 ---
