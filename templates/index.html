@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Fake News Detector</h1>
+        <div class="card">
+            <form id="newsForm">
+                <textarea id="newsText" placeholder="Paste news article here..." required></textarea>
+                <button type="submit">Analyze News</button>
+            </form>
+        </div>
+        <div class="card" id="resultCard">
+            <h2>Analysis Results</h2>
+            <div class="result-block">
+                <label>Real News Probability</label>
+                <div class="progress">
+                    <div id="realProgress" class="progress-bar progress-bar-real" style="width: 0%"></div>
+                </div>
+                <span id="realPercent">0%</span>
+            </div>
+            <div class="result-block">
+                <label>Fake News Probability</label>
+                <div class="progress">
+                    <div id="fakeProgress" class="progress-bar progress-bar-fake" style="width: 0%"></div>
+                </div>
+                <span id="fakePercent">0%</span>
+            </div>
+            <div class="alert" id="verdictAlert">
+                <strong>Verdict:</strong> <span id="verdictText"></span>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}" ></script>
+</body>
+</html>
