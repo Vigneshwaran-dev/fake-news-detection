@@ -75,5 +75,5 @@ Then open your browser and visit:
 ### Author
 
 Vigneshwaran M  
-  GitHub: @Vigneshwaran-dev  
-  LinkedIn: linkedin.com/in/yourprofile (https://www.linkedin.com/in/vigneshwaran004/)
+  GitHub: https://github.com/Vigneshwaran-dev
+  LinkedIn: https://www.linkedin.com/in/vigneshwaran004/
